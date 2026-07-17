@@ -1,4 +1,4 @@
-\# 🚗 SmartParking Management System
+# 🚗 SmartParking Management System
 
 
 
@@ -10,97 +10,97 @@ The project allows parking providers to manage parking lots and drivers to regis
 
 
 
-\---
+---
 
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
-\### Authentication
+### Authentication
 
-\- User registration
+- User registration
 
-\- User login
+- User login
 
-\- JWT authentication
+- JWT authentication
 
-\- Driver / Provider roles
-
-
-
-\### Parking Providers
-
-\- Create parking lots
-
-\- View own parking lots
-
-\- Update parking lots
-
-\- Delete parking lots
+- Driver / Provider roles
 
 
 
-\### Drivers
+### Parking Providers
 
-\- Register multiple vehicles
+- Create parking lots
 
-\- View registered vehicles
+- View own parking lots
 
-\- Many-to-many relationship between Users and Vehicles
+- Update parking lots
 
-
-
-\### Reservations
-
-\- Reserve parking spaces
-
-\- Automatic free slot assignment
-
-\- Reservation confirmation
-
-\- Reservation status management
+- Delete parking lots
 
 
 
-\---
+### Drivers
+
+- Register multiple vehicles
+
+- View registered vehicles
+
+- Many-to-many relationship between Users and Vehicles
 
 
 
-\## 🛠️ Tech Stack
+### Reservations
+
+- Reserve parking spaces
+
+- Automatic free slot assignment
+
+- Reservation confirmation
+
+- Reservation status management
 
 
 
-\### Backend
-
-\- ASP.NET Core Web API
-
-\- Entity Framework Core
-
-\- SQL Server
-
-\- JWT Authentication
+---
 
 
 
-\### Frontend
-
-\- React
-
-\- Material UI
-
-\- Axios
-
-\- React Router
+## 🛠️ Tech Stack
 
 
 
-\---
+### Backend
+
+- ASP.NET Core Web API
+
+- Entity Framework Core
+
+- SQL Server
+
+- JWT Authentication
 
 
 
-\## 🗄️ Database
+### Frontend
+
+- React
+
+- Material UI
+
+- Axios
+
+- React Router
+
+
+
+---
+
+
+
+## 🗄️ Database
 
 
 
@@ -108,17 +108,17 @@ Main entities:
 
 
 
-\- Users
+- Users
 
-\- Vehicles
+- Vehicles
 
-\- VehicleAssignments
+- VehicleAssignments
 
-\- ParkingLots
+- ParkingLots
 
-\- ParkingSlots
+- ParkingSlots
 
-\- Reservations
+- Reservations
 
 
 
@@ -126,25 +126,25 @@ Relationships include:
 
 
 
-\- User ↔ Vehicle (Many-to-Many)
+- User ↔ Vehicle (Many-to-Many)
 
-\- ParkingLot → ParkingSlots (One-to-Many)
+- ParkingLot → ParkingSlots (One-to-Many)
 
-\- VehicleAssignment → Reservations
+- VehicleAssignment → Reservations
 
-\- ParkingSlot → Reservations
-
-
-
-\---
+- ParkingSlot → Reservations
 
 
 
-\## 🚀 Getting Started
+---
 
 
 
-\### Backend
+## 🚀 Getting Started
+
+
+
+### Backend
 
 
 
@@ -172,11 +172,11 @@ https://localhost:7205
 
 
 
-\---
+---
 
 
 
-\### Frontend
+### Frontend
 
 
 
@@ -204,63 +204,63 @@ http://localhost:5173
 
 
 
-\---
+---
 
 
 
-\## 📸 Current Functionality
+## 📸 Current Functionality
 
 
 
-\- ✅ Authentication
+- ✅ Authentication
 
-\- ✅ Parking lot management
+- ✅ Parking lot management
 
-\- ✅ Vehicle management
+- ✅ Vehicle management
 
-\- ✅ Reservation creation
+- ✅ Reservation creation
 
-\- ✅ Reservation history
+- ✅ Reservation history
 
-\- ✅ Responsive React UI
-
-
-
-\---
+- ✅ Responsive React UI
 
 
 
-\## 📚 Future Improvements
+---
 
 
 
-\- Payment integration
-
-\- Google Maps integration
-
-\- QR code parking access
-
-\- Notifications
-
-\- Admin dashboard
-
-\- Search and filtering
-
-\- Reservation cancellation
-
-\- Real-time parking availability
+## 📚 Future Improvements
 
 
 
-\---
+- Payment integration
+
+- Google Maps integration
+
+- QR code parking access
+
+- Notifications
+
+- Admin dashboard
+
+- Search and filtering
+
+- Reservation cancellation
+
+- Real-time parking availability
 
 
 
-\## 👨‍💻 Author
+---
 
 
 
-\*\*Lusine Mkrtchyan\*\*
+## 👨‍💻 Author
+
+
+
+**Lusine Mkrtchyan**
 
 
 
